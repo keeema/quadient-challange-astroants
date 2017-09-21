@@ -1,0 +1,1 @@
+export const lineLength: number = 3;
