@@ -18,3 +18,7 @@ Publish the content of ```dist``` folder to web server and open it in browser.
 Press ```START``` button to download assignement, compute the best path and check on the remote server. The result will appear below. To see the full graph of possible paths press button ```SHOW PATHS``` but be prepared for a little delay because of huge amount of edges. 
 
 You can perform a new one processing by pressing ```START``` again.
+
+## Principle
+
+The application first converts the specified structure into an oriented graph and then applies the Bellman-Ford algorithm to find the minimum path.
