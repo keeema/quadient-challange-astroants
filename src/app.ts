@@ -92,7 +92,7 @@ function getMatrix(appCtx: AppCtx) {
     });
   }
 
-  let content = [
+  let content: b.IBobrilChildren = [
     path({ points: appCtx.runner.foundPath.verticies, isHighlited: true }),
   ];
   if (appCtx.showAllPaths) content = [...appCtx.matrixCache, content];
