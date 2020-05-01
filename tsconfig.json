@@ -1,29 +1,36 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "declaration": false,
-        "lib": [
-            "es5",
-            "dom",
-            "es2015.core",
-            "es2015.promise"
-        ],
-        "removeComments": false,
-        "noLib": false,
-        "preserveConstEnums": false,
-        "experimentalDecorators": true,
-        "types": [],
-        "jsx": "react",
-        "reactNamespace": "b"
-    },
-    "include": [
-        "**/*"
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.core",
+      "es2015.promise",
+      "es2015.iterable",
+      "es2015.generator",
+      "es2015.collection"
     ],
-    "compileOnSave": false,
-    "files": [
-        "C:/Users/t.rut/AppData/Roaming/npm/node_modules/bobril-build/typings/jasmine/jasmine.d.ts",
-        "node_modules/bobril/jsx.d.ts"
-    ]
+    "module": "commonjs",
+    "noEmitHelpers": true,
+    "preserveConstEnums": false,
+    "reactNamespace": "b",
+    "removeComments": false,
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "target": "es5",
+    "resolveJsonModule": true
+  },
+  "files": [
+    "/home/keeema/.bbcore/tools/jasmine330.d.ts"
+  ],
+  "include": [
+    "**/*"
+  ]
 }

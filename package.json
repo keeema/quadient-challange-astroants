@@ -9,17 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bobril": "^7.6.2",
-    "bobril-g11n": "^3.3.4",
-    "bobrilstrap": "^1.2.7",
-    "bobx": "^0.11.0"
+    "bobril": "^14.6.0",
+    "bobril-g11n": "^5.0.0",
+    "bobrilstrap": "^3.4.0",
+    "bobx": "^0.28.0"
   },
-  "bobril": {
-    "compilerOptions": {
-      "experimentalDecorators": true
-    }
-  },
-  "resolutions": {
-    "@types/jquery": "2.0.48"
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }

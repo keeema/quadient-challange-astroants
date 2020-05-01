@@ -2,55 +2,86 @@
 # yarn lockfile v1
 
 
-"@types/bootstrap@^3.3.35":
-  version "3.3.36"
-  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-3.3.36.tgz#5ca0b81655427398fe7c8728bccdc395069093d0"
+"@types/bootstrap-3-typeahead@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/bootstrap-3-typeahead/-/bootstrap-3-typeahead-4.0.1.tgz#2b45e196631095f9b8a4afde606dd8c12cf9e77f"
+  integrity sha512-1TFxHxZEABxfJJQzgKLKpgcmd2KXKATv83WP7XwjQdWk0lXTXYcnWyYt7j7tQ1GrEZ0smUf7O3bQVSiRiRE+Xw==
   dependencies:
     "@types/jquery" "*"
 
-"@types/jquery@*", "@types/jquery@2.0.48", "@types/jquery@^2.0.43":
-  version "2.0.48"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-2.0.48.tgz#3e90d8cde2d29015e5583017f7830cb3975b2eef"
-
-bobril-g11n@^3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/bobril-g11n/-/bobril-g11n-3.3.4.tgz#af6e525b1112256f46c13f446dd2cfaa65d0b1df"
+"@types/bootstrap@^3.3.35":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-3.4.0.tgz#7e74a2421b3984ce53ab459e979a99a78dd802c6"
+  integrity sha512-LS05hVAAsX86qbHg7W+ydwBlNHrVCoFw6wEP3/uW4eYmRXl08bWmPeN/+onM+8qZTFfDgUlG/OItJI8SW972oQ==
   dependencies:
+    "@types/jquery" "*"
+
+"@types/jquery@*", "@types/jquery@^3.3.36":
+  version "3.3.36"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.36.tgz#a868c1c244a9f7b988d8fc56a3234f22e73c57b8"
+  integrity sha512-jHL8J5y5fJ0+C9zCTkeOvX4zqRnPug3r6JhAqAYl2YyBCYHiXTbZSH0MRCpayZADed5TigPjH92dEKczUFT2TQ==
+  dependencies:
+    "@types/sizzle" "*"
+
+"@types/sizzle@*":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
+
+bobril-g11n@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/bobril-g11n/-/bobril-g11n-5.0.0.tgz#4d4341fda018138caedb4611ecf9f27a7c7b7a40"
+  integrity sha512-zuQOeZLSz0+ZeTw+daj3T41zVnVkXnlDyR6shKiFL/5wZrU+2CE9Du9QoAHHyIniVF4AompfGldbcs0XVneqHQ==
+  dependencies:
+    bobril "*"
     moment "^2.10.6"
 
-bobril@^7.0.0, bobril@^7.3.2, bobril@^7.6.2:
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-7.6.2.tgz#86bfe18b4d2be7d0c25ed4deb9753866c514e7a2"
+bobril@*, bobril@^14.6.0:
+  version "14.6.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-14.6.0.tgz#504ce0960776ce81738507da8a0f5263010e423c"
+  integrity sha512-OZ2iCpK4NE7TYa2xpv+YzpHFD5qoUEzbjw9wlGfx8XbTHr0KyDpioFtEAF2s3B6wZlCOhx4LnAA2bmlJc7Zd0g==
 
-bobrilstrap@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/bobrilstrap/-/bobrilstrap-1.2.7.tgz#8d8c430797a89f367a1285178c23f58df99baffd"
+bobrilstrap@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/bobrilstrap/-/bobrilstrap-3.4.0.tgz#6a19792572e5a94d3889dc1c254c68d530562d93"
+  integrity sha512-4khrpPJzeBryknOW9DL0ssPxGDMVyv01tdFXFusjpsgU7M9deeM/Hbj2UZ+H7Lx7DAXqq31XjlVoDOz9SiieBA==
   dependencies:
     "@types/bootstrap" "^3.3.35"
-    "@types/jquery" "^2.0.43"
-    bobril "^7.3.2"
-    bootstrap "^3.3.7"
+    "@types/bootstrap-3-typeahead" "^4.0.1"
+    "@types/jquery" "^3.3.36"
+    bobril "^14.6.0"
+    bootstrap "^3.4.0"
     bootstrap-3-typeahead "^4.0.2"
-    jquery "^2.2.4"
+    jquery "^3.5.0"
 
-bobx@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.11.0.tgz#2d17bed82b5fab33cec7abf1a5a4b561b9b27aa1"
+bobx@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.28.0.tgz#1edab428401a2e80c6ecbdd6c69e405be872a1c9"
+  integrity sha512-lPC3/QMzWwInCRCDImaIpjqoKn1gpb7+5BucaYHuz6PprRrf1VaR2zJnFZbNiLEBRvwnNx82yPXpMZt5r9ES2w==
   dependencies:
-    bobril "^7.0.0"
+    bobril "*"
 
 bootstrap-3-typeahead@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/bootstrap-3-typeahead/-/bootstrap-3-typeahead-4.0.2.tgz#cb1c969044856862096fc8c71cc21b3acbb50412"
+  integrity sha1-yxyWkESFaGIJb8jHHMIbOsu1BBI=
 
-bootstrap@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
+bootstrap@^3.4.0:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
+  integrity sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==
 
-jquery@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
+jquery@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
 
 moment@^2.10.6:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.25.0.tgz#e961ab9a5848a1cf2c52b1af4e6c82a8401e7fe9"
+  integrity sha512-vbrf6kJGpevOxmDRvCCvGuCSXvRj93264WcFzjm3Z3pV4lfjrXll8rvSP+EbmCte64udj1LkJMILxQnjXAQBzg==
+
+prettier@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
