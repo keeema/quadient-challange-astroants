@@ -1,15 +1,12 @@
 import * as b from "bobril";
 import * as bs from "bobrilstrap";
-import { initGlobalization } from "bobril-g11n";
 import { observable } from "bobx";
 import { api } from "./api/api";
 import { log } from "./log/log";
-import { IAssignment } from "./api/iApi";
-import { Graph } from "./model/graph";
 import { Runner } from "./runner/runner";
 import { svg } from "./components/svg";
-import { edge, IEdgeData } from "./components/edge";
-import { path, IPathData } from "./components/path";
+import { edge } from "./components/edge";
+import { path } from "./components/path";
 
 class AppCtx extends b.BobrilCtx<never> {
   runner: Runner = new Runner(api, log);
